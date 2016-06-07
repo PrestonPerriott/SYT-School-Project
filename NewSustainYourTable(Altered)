@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> How to Sustain Your Table  </title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- We link the CDN css files here -->
+<link rel="stylesheet" href="css/bootsrap.min.css">
+
+<!-- Optional Theme --> 
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<style> 
+.jumbotron {
+	background-color: #4A572C; /*dark green*/
+	color: #ffffff;
+	padding: 100px 25px;
+}
+.bg-grey {
+	background-color: #f6f6f6;
+}
+.container-fluid {
+	padding: 60px 50px;
+}
+.logo-small {
+	color: #C2C290; /* light green*/
+	font-size: 50px;
+}
+.logo 
+{
+	color: #C2C290; /* light green*/
+	font-size: 200px;
+}
+.panel {
+    border: 1px solid #DBE6AF; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+    background-color: #D6CFC9; /*light tan*/
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #98FB98; 
+    background-color: #4A572C !important; /*light red */ 
+    color: #98FB98; 
+}
+
+.panel-heading {
+    color: #4169B4 !important;
+    background-color: #ffffff !important; /*light red */
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #4A572C !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #4169B4;
+    color: #fff;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #E34819; /* Red */ 
+}
+
+.carousel-indicators li {
+    border-color: #98FB98;
+}
+
+.carousel-indicators li.active {
+    background-color: #98FB98;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+   }
+    .navbar {
+    margin-bottom: 0;
+    background-color: #ffffff;
+    z-index: 5000;
+    border: 50;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #803018 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #6D7696 !important;
+    background-color: #803018 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #98FB98;
+    color: #803018 !important;
+}
+}
+@media screen and (max-width: 768px){
+	.col-sm-4{
+		text-align: center;
+		margin: 25px 0;
+	}
+}
+
+</style>
+</head>
+
+
+<body background="eight_horns.png" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"> 
+      <img src="SusTable1.png" alt="SusYT" style="width:128px;height:45px;border:10;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#packages">PACKAGES</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#myCarousel">TESTIMONIALS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Sustain Your Table</h1> 
+  <p>We Specialize in Educating people in Sustainability </p> 
+<!-- Adds a form form email input --> 
+  <form class="form-inline">
+  <input type="email" class="form-control" size="50" placeholder="Email Address">
+<button type="button" class ="btn btn-primary">Subscribe</button>
+</form>
+</div>
+
+<!-- Container (About Section) -->
+<div id ="about" class="container-fluid text-center">
+
+
+  <h2><u>About Sustain Your Table</u></h2>  
+  
+    
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Founder</h1>
+        </div>
+        <div class="panel-body">   
+  <p>Dr. Mark Hengen is a graduate of Yale University with a Masters in Urban Social Ecology and Environmental Policies. Subsequent to his graduation he immediately went to work with the New York City Departement of Parks and Recreation to conduct environmental education projects with minority youth and adults. While in New York, Dr. Hengen planned and assisted in the Freshkills LandFill Capping Plan; an urban restoration project, as well as many environmental justice projects.</p>
+  <p>After years of Work in New York, Dr. Hengen was promoted to Urban ecologist and Forester of the New York Parks Department. It was here that Dr. Hengen orchistrated the management of multi-million dollar contracts, neghborhood revitalization development projects, the establishment of a urban ecological restoration team, and assisted in New York City planning in environmental issues.</p>
+  <p>
+  Currently Dr. Mark Hengen is ...
+  <br /> </p>
+  </div>
+        <div class="panel-footer plan">
+<button class="btn btn-default btn-lg">Get in Touch</button>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="container-fluid bg-grey">
+<div class="row">
+<div class="col-sm-4">
+<span class="glyphicon glyphicon-book logo"></span>
+</div>
+
+<div class="col-sm-8">
+  <h2><u>Our Values</u></h2>
+  <h4><strong>MISSION:</strong></h4>
+  <p> Currently, Dr. Hengen is a professor at Johnson & Wales University. Here, he teaches a number of courses, some of which have a concentrated level of educating students on sustainability. In the industry, there is an overwhelming call to educate young professionals coming into the food industry about sustainability. As early as the early 1990’s, becoming “green” has been a concern in the food industry. As health awareness grew in the early 2000’s, there is a growing demand that consumers are placing on such professionals which requires them to be more accountable for how food is made and where it comes from. Having such a passion for sustainability and teaching, Dr. Hengen wants these passions to reach beyond the classroom and directly into the industry. Merging these passions to create a consulting firm to educate restaurant owners will solve the pressing issue for restaurant sustainability. </p>
+
+  <p><strong>VISION:</strong> Our vision is only bolstered by the number of students graduating. We hope to educate not only a growing industry, but the individuals that will populate the future industries.</p>
+</div>
+</div>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="packages" class="container-fluid text-center">
+  <h2><u>Packages</u></h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>
+<a background= href="#" title="Energy & Waste" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-html ="true" data-content="We will explore the many options that is provided to you such as: <br />
+• Recommending better energy efficient equipment at the lowest cost to you <br />
+• Recommending creative ways for reuse of your waste materials <br />
+• How to turn your food waste into profits <br />
+• And more">
+      Energy & Waste Management</a></h4>
+      <p>The world is experiencing a significant increase in consumption habits of modern day consumer lifestyles. Having overfilled landfills, many first world nations are now exporting trash to third world countries. These actions are having a devastating impact on ecosystems and cultures throughout the world...</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-transfer logo-small"></span>
+      <h4>
+<a background= href="#" title="PR & Marketing" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-html ="true" data-content="We will show and recommend you on how to: <br />
+• Break down and understand various platforms of Marketing that measures both the success and sales/revenue your business generates <br />
+• How to create any size campaign using any size budget <br />
+• How to Focus, Target and Communicate your message to your consumers <br />
+• Show you the difference between; Paid, Earned and Owned media and how you can use this knowledge to effectively drive traffic to your business and ramp up sales">
+Marketing/Public Relations</a></h4>
+      <p>If Marketing promotes the transfer of goods and services from the producer and provider to the consumer. And Public Relations helps an organization and its public adapt mutually to each other. <br />
+We will assist you with your Marketing and Public Relations endeavors, insuring that your business Marketing and Public Relations campaigns convey a clear and concise massage to your consumers...</p>
+
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-cutlery logo-small"></span>
+      <h4>
+      <a background= href="#" title="Food Sourcing" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-html ="true" data-content="We will educate, assist you with your Food Sourcing needs by: <br /> 
+• Informing you about your local farming and food resources <br />
+• How to identify better options on farmer and food selections <br />
+• How to design the correct menu based on the products available to you by locality of farmers <br />
+• How to utilize different Food Sourcing techniques as you scale your business">
+Food Sourcing/Menu Design</a></h4>
+      <p>Food Sourcing is knowing where your food comes from and buying from your local food purveyors. <br />
+According to a study by Richard Pirog, the associate director of the Leopold Center for Sustainable Agriculture at Iowa State University, the average produce item travels 1,500 miles from farm to table. That generates high costs in packaging, travel, overhead and risk management that could otherwise be reduced (or eliminated) if buying from a supplier located locally...</p>
+    </div>   
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>
+      <a background= href="#" title="Food Sourcing" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-html ="true" data-content="We will recommend multiple cost effective areas of Supply Chain Management. Some topics include: <br />
+• Understanding the product flow and how to incorporate that into your business <br />
+• Understanding the information flow and how to incorporate that into your business <br />
+• Understanding the financial flow and how to incorporate that into your business <br />
+• The types of SCM software <br />
+• Understanding open data modeled applications (extended enterprise) which includes; key suppliers, manufacturers, and end customers of a specific company.">
+      Food System Training</a></h4>
+      <p>Supply chain management (SCM) is the management of the flow of goods and services. It includes the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption...</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2><u>Pricing</u></h2>
+    <h4>Understanding Our Consuslting</h4>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>One Package</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>$500</strong> Sign On</p>
+          <p><strong>$50</strong> Hourly Consulting Fee</p>
+          <p><strong>$$</strong> **Equiptment Fees</p>
+          <p><strong>$50</strong> Cumulative Weekly Finance Tax</p>
+        </div>
+        <div class="panel-footer plan">
+          <h3>$119</h3>
+          <h4>Per Week</h4>
+          <button class="btn btn-lg">More Info/Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+ 
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Two Packages</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>$750</strong> Sign On</p>
+          <p><strong>$60</strong> Hourly Consulting Fee</p>
+          <p><strong>$$</strong> Various Equiptment</p>
+          <p><strong>$75</strong> Cumulative Weekly Finance Tax</p>
+        </div>
+        <div class="panel-footer plan">
+          <h3>$180</h3>
+          <h4>Per Week</h4>
+          <button class="btn btn-lg">Learn More/Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Three Packages</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>$1000</strong> Sign On</p>
+          <p><strong>$65</strong> Hourly Consulting Fee</p>
+          <p><strong>$$</strong> Various Equipment</p>
+          <p><strong>$100</strong> Cumulative Weekly Finance Tax</p>
+        </div>
+        <div class="panel-footer plan">
+          <h3>$225</h3>
+          <h4>Per Week</h4>
+          <button class="btn btn-lg">Learn More/Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
+
+<h2 class="text-center">Customer Testimonials</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"Easily one of the Best consulting agencies I've been with in a while!"<br><span style="font-style:normal;">John Doe, Vice President, Large Company</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Personable staff, and extremely friendly!!"<br><span style="font-style:normal;">Jane Doe, Saleswoman, TRO LLC</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Professional in every way, and the results were unquestionable"<br><span style="font-style:normal;">Guy Buddy, CFO, S&T Inc.</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">Contact US</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Feel free to leave us a message and we will respond as fast as humanely possible.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Providence, Rhode Island</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +401 123 4567</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Doc.Hengen@somethingProfessional.com</p>	   
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Leave Us a Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- JavaScript files should be linked at the bottom of the page -->
+<script src="js/jQuery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 650, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+})
+</script>
+
+
+<!-- Lateste compiled and minified Javascript -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
